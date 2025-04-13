@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking Lot Booking</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Basic CSS styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('image.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Find and Book Parking slots</h1>
+  
+  <div id="map"></div>
+
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Sample parking lot data for Haryana
+    const parkingLots = [
+      { name: "Chamber Gate Number 3 Parking-Sector 12 Faridabad - Park+", location: [28.5575, 77.3058] },
+      { name: "Car Park", location: [29.3909, 76.9635] },
+      { name: "IfWrongPark.com", location: [28.4595, 77.0266] },
+      { name: "Crown Interiorz Mall Parking", location: [28.4025, 77.3163] },
+      // Add more parking lots as needed
+    ];
+
+    // Initialize Leaflet map focusing on Haryana
+    var map = L.map('map').setView([28.4089, 77.3178], 9); // Haryana coordinates and default zoom level
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Display parking markers on the map
+    parkingLots.forEach(parkingLot => {
+      var marker = L.marker(parkingLot.location).addTo(map);
+      
+      // Add click event listener to display parking information in a popup
+      marker.bindPopup(`
+        <h3>${parkingLot.name}</h3>
+        <p>Parking Charge: ₹25 per hour</p>
+        <button onclick="bookParking('${parkingLot.name}')">Book Now</button>
+      `);
+    });
+
+    function bookParking(parkingLotName) {
+      // You can implement booking functionality here
+      alert(`Booking confirmed for ${parkingLotName}`);
+    }
+  </script>
+</body>
+</html>

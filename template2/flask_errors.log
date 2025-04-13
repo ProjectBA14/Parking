@@ -1,0 +1,440 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:15] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:33:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:34:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:34:23] "[33mGET /logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:34:23] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:34:23] "[33mGET /lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:03] "[33mGET /logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:03] "[33mGET /lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:03] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:29] "[33mGET /logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:29] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:29] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:31] "[33mGET /logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:31] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:31] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /template/logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /template/logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:55] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /template/logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /template/logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:35:56] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:38:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:38:17] "[33mGET /template/logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:38:17] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:38:17] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:09] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:09] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:10] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:10] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:31] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:31] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:40:32] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:04] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:04] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:05] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:38] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:41] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:46] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:46] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:47] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:47] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:48] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:48] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 23:44:53] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:13:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:13:21] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:15:50] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:15:50] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:16:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:16:51] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:17:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:17:51] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:19:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:19:51] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 00:19:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:14] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:14] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:17] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:17] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:07:18] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:08:02] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:08:13] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:10:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:10:42] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:10:42] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:10:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:10:44] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:00] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:00] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:11:27] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:12:33] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:12:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:12:35] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:12:39] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:43] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:48] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:51] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:13:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:23] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:27] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:49] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:50] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:14:54] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:19] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:20] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:20] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:22] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:22] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:23] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:23] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:33] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:33] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:35] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:16:35] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:24] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:25] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:27] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:17:30] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:20:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:20:04] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:20:08] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:22:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:22:03] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:22:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:22:04] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:22:08] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:24:16] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:24:16] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:24:16] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:24:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:24:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:25:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:25:09] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:25:16] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:08] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "[35m[1mGET /signup HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "[35m[1mGET /signup HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "GET /signup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "GET /signup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "GET /signup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:12] "[36mGET /signup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:41] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:41] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:42] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:26:48] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:03] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:07] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:07] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:07] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:10] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:12] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:27:15] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:28:23] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:28:23] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:28:39] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:30:40] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:30:40] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:30:46] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:30:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:30:46] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:31:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:31:11] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:31:11] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:31:11] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug: * Detected change in 'c:\\Users\\aksha\\Music\\template2\\template2\\coding.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:34:45] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:02] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:02] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:07] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:07] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:35:07] "[33mGET /image.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:36:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:36:32] "[33mGET /signup.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:11] "[33mGET /signup.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:14] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:14] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:16] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:16] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:34] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:34] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:45] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:45] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:45] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:50] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:50] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:37:50] "[33mGET /image.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:48] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:48] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:57] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:57] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:39:57] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:40:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:40:02] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:40:02] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 01:40:02] "[33mGET /image.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-453-898
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:31] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:33] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:33] "[33mGET /template/lot2.webp HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:36] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:37] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:37] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:48] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:48] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:48] "[33mGET /1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:52] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:52] "GET /maps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2024 10:35:52] "[33mGET /image.png HTTP/1.1[0m" 404 -

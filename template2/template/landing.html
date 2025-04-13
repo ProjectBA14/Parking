@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('1.png');
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Center vertically */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .image-placeholder {
+            width: 50%;
+            height: 300px; 
+            background-image: url('template\\lot2.webp'); /* Change background image here */
+            background-size: cover;
+            background-position: center;
+            display:flex; 
+            justify-content:center; 
+            align-items:center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="logo"><img src="C:\Users\aksha\Music\template2\template2\template\logo.jpeg" alt="Logo"></div>
+    <h1>Park Angel</h1>
+    <nav>
+        <ul>  
+            <li><button id="book-button" type="button">Book Now</button></li>  
+            <li><button id="learn-more-button" type="button">Learn More</button></li>  
+            <li><button type="button">Contact Us</button></li>  
+            <!-- Add more items as needed -->
+        </ul>  
+    </nav>
+    <!-- Add more options dropdown here -->
+</header>
+
+<div class="container">
+    <h1>Find and book your parking slot online</h1>
+    <!-- Placeholder for an image or map -->
+    <div class='image-placeholder'>
+        <span style='color:white;'>Image Placeholder</span>
+    </div>
+    <!-- Description and buttons -->
+    <p>Welcome to our parking site! where you can easily locate and book a parking slot. With our convenient online payment system, securing your parking spot has never been easier.</p>
+    <!-- Buttons could be links or form submit buttons depending on the implementation needed -->
+    <button type="button">Book</button>
+    <button id="learn-more-button" type="button">Learn More</button>
+    <button id="price-button" type="button">Price</button> <!-- Added Price button -->
+    <!-- Add search bar and submit button here -->
+</div>
+
+<style>
+    /* Other styles remain unchanged */
+
+    #logo img {
+        width: 50px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
+
+<style>
+    /* Other styles remain unchanged */
+
+    .container button {
+        background-color: black;
+        color: white; /* Text color */
+        margin-right: 10px; /* Added margin between buttons */
+    }
+</style>
+
+<script>
+    // JavaScript code to handle button click events and redirect to respective pages
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById('book-button').addEventListener('click', function() {
+            window.location.href = 'http://127.0.0.1:8001/login'; // Redirect to login.html
+        });
+
+        document.getElementById('learn-more-button').addEventListener('click', function() {
+            // Redirect to the page with more information
+            // Replace 'learn_more.html' with the actual page name
+            window.location.href = 'learn.html'; 
+        });
+
+        document.getElementById('price-button').addEventListener('click', function() {
+            // Redirect to the page with pricing information
+            // Replace 'price.html' with the actual page name
+            window.location.href = 'price.html'; 
+        });
+    });
+</script>
+
+<!-- Footer could go here if needed -->
+
+</body>
+</html>

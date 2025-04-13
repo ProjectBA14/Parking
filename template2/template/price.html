@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Options</title>
+    <style>
+        body {
+           background-image: url('1.png');
+        
+        /* Add additional styles as needed */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .tabs {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .tabs li {
+            padding: 10px 20px;
+            background: #ddd;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .tabs li:last-child {
+            margin-right: 0;
+        }
+        .tabs li.active {
+            background: #333;
+            color: #fff;
+        }
+        .plan {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .plan h2 {
+            margin-top: 0;
+        }
+        .plan p.price {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .plan button {
+            background: #333;
+            color: #fff;
+            border: 0;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .plan button:hover {
+            opacity: 0.8;
+        }
+        .plan-features {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .plan-features li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pricing Options</h1>
+    </header>
+    <div class="container">
+        <ul class="tabs">
+            <li class="active">Monthly</li>
+            <li>Yearly</li>
+        </ul>
+        <div class="plan">
+            <h2>Basic Plan</h2>
+            <p>Ideal for occasional parkers.</p>
+            <p class="price">Rs0/mo</p>
+            <button>Get started</button>
+            <ul class="plan-features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+        </div>
+        <div class="plan">
+            <h2>Business Plan</h2>
+            <p>Perfect for frequent parkers.</p>
+            <p class="price">Rs2000/month</p>
+            <button>Get started</button>
+            <ul class="plan-features">
+                <li>Feature A</li>
+                <li>Feature B</li>
+                <li>Feature C</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
