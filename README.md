@@ -1,147 +1,154 @@
+# Smart Parking System
 
-
-### ✅ COPY EVERYTHING BELOW INTO `README.md`
-
-```markdown
-# 🚗 Smart Parking System
-
-> Real-time parking space detection using Computer Vision and Cloud Sync
+Smart Parking System is a web-based application that combines user authentication with real-time parking visualization. It uses a Flask backend with MySQL for user management and integrates a frontend dashboard for accessing parking-related features.
 
 ---
 
-## 🌐 Overview
-Smart Parking System is a real-time parking monitoring solution that uses computer vision to detect available and occupied parking spaces. The system processes video input, analyzes parking slots, and updates availability instantly on a web-based dashboard.
+## Overview
 
-Built with a modular architecture, it separates detection logic and user interface, enabling scalability and easy integration with future smart city solutions.
+This project demonstrates a full-stack system with authentication and dashboard access.
 
----
-
-## ⚡ Key Highlights
-- Computer vision-based slot detection
-- Real-time updates using Firebase
-- Interactive web dashboard
-- Modular client-server architecture
-- Scalable for multi-location deployment
+It includes:
+- User signup and login system  
+- MySQL database integration  
+- Flask-based backend routing  
+- Web interface for accessing parking map/dashboard  
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-**Backend**
-- Python
-- OpenCV
-- Pyrebase
+### Authentication System
+- User signup with password validation  
+- Secure login using MySQL database  
+- Error handling for invalid credentials  
+- Redirect-based navigation  
 
-**Frontend**
-- Next.js
-- React
-- JavaScript
+### Backend System
+- Flask-based routing  
+- MySQL database connectivity  
+- Logging for error tracking  
+- Template rendering for UI pages  
 
-**Database**
-- Firebase Realtime Database
+### Dashboard Access
+- Map/dashboard page after login  
+- Structured navigation flow  
+- Scalable backend for adding features  
 
 ---
 
-## 🧩 Architecture
+## Tech Stack
+
+- **Backend:** Flask (Python)  
+- **Database:** MySQL  
+- **Frontend:** HTML, CSS  
+- **Other:** Logging module  
+
+---
+
+## Project Structure
 
 ```
-
-Video Feed → OpenCV Processing → Slot Detection → Firebase → Web Dashboard
-
-```
-
----
-
-## 📂 Project Structure
-
-```
-
 Parking/
-├── client/      # Frontend (Next.js)
-├── server/      # Backend (OpenCV + Python)
-└── README.md
-
-````
+│── template/           # HTML templates
+│── app.py              # Main Flask application
+│── flask_errors.log    # Error logs
+│── README.md
+```
 
 ---
 
-## 🚀 Getting Started
+## Installation
 
-### 1. Clone the Repository
+1. Clone the repository  
 ```bash
 git clone https://github.com/ProjectBA14/Parking.git
+```
+
+2. Navigate to the project directory  
+```bash
 cd Parking
-````
-
-### 2. Setup Backend
-
-```bash
-cd server
-pip install -r requirements.txt
-python main.py
 ```
 
-### 3. Setup Frontend
-
+3. Install dependencies  
 ```bash
-cd ../client
-npm install
-npm run dev
+pip install flask mysql-connector-python
 ```
 
-Open your browser and go to:
+4. Setup MySQL database  
+- Create a database named `login`  
+- Create table:
 
-[http://localhost:3000](http://localhost:3000)
-
----
-
-## ⚙️ How It Works
-
-* Captures parking lot video feed
-* Uses predefined slot coordinates
-* Applies image processing to detect occupancy
-* Syncs results with Firebase
-* Displays live availability on dashboard
+```sql
+CREATE TABLE userinfo (
+    mailid VARCHAR(255),
+    password VARCHAR(255)
+);
+```
 
 ---
 
-## 📸 Preview
+## Usage
 
-*Add screenshots or demo GIFs here*
+1. Run the Flask app  
+```bash
+python app.py
+```
 
----
+2. Open in browser  
+```
+http://localhost:8001
+```
 
-## 🚧 Roadmap
-
-* Parking slot reservation system
-* AI-based adaptive detection
-* Mobile application
-* Multi-location tracking
-* Analytics dashboard
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push and open a Pull Request
+3. Use the system  
+- Sign up a new user  
+- Login with credentials  
+- Access dashboard/map page  
 
 ---
 
-## 📜 License
+## Application Flow
 
-MIT License
-
----
-
-## 👨‍💻 Maintainers
-
-ProjectBA14
-[https://github.com/ProjectBA14](https://github.com/ProjectBA14)
-
-````
+- User lands on homepage  
+- Navigates to login/signup  
+- Credentials validated using MySQL  
+- On success → redirected to dashboard (`/maps`)  
+- On failure → error message displayed  
 
 ---
 
+## Screenshots
+
+Add screenshots inside a folder (e.g., `/assets`) and update paths below:
+
+```
+![Login Page](./assets/login.png)
+![Signup Page](./assets/signup.png)
+![Dashboard](./assets/dashboard.png)
+```
+
+---
+
+## Limitations
+
+- Passwords are stored in plain text (not secure)  
+- No session management or authentication tokens  
+- Basic UI without responsiveness  
+- Limited validation and security checks  
+
+---
+
+## Future Improvements
+
+- Password hashing (bcrypt)  
+- Session-based authentication  
+- Role-based access control  
+- Improved UI/UX  
+- Integration with parking detection system  
+- Deployment on cloud  
+
+---
+
+## License
+
+This project is intended for academic and demonstration purposes.
